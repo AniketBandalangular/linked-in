@@ -1,0 +1,42 @@
+.widget{
+    position: sticky;
+    top:80px;
+    flex:0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.widget_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widget_article{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widget_article:hover{
+    background-color: whitesmoke;
+}
+.widget_article_left{
+    color:#0177b7;
+    margin-right: 5px;
+}
+.widget_article_left > AnnouncementOutlinedIcon{
+    font-size: 15px;
+}
+.widget_article_right{
+    flex:1;
+}
+.widget_article_right > h4{
+    font-size: 14px;
+}
+.widget_article_right > p{
+    font-size: 12px;
+    color: gray;
+}
